@@ -20,15 +20,21 @@ SkillSwap is a platform for exchanging skills between users — "I can teach" / 
 - Jest
 - Vitest
 
-## 🚀 Installation and Setup **Local** 1. Clone the repository: 
-git clone https://github.com/PashensiaCode/SkillSwap.git
+## 🚀 Installation and Setup **Local**.
+
+1. Clone the repository: 
+git clone https://github.com/PashensiaCode/SkillSwap.git.
+
 2. Navigate to the project directory and switch to the branch develop:
 cd SkillSwap_45_2
-git checkout develop
-3. Install the dependencies:
-npm i
-4. Start the application:
-npm run dev
+git checkout develop.
+
+4. Install the dependencies:
+npm i.
+
+6. Start the application:
+npm run dev.
+
 The application will be available at http://localhost:5173
 
 
