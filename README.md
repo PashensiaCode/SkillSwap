@@ -1,81 +1,33 @@
-# SkillSwap_45_2
+# SkillSwap
 
-## 📖 Описание проекта: 
-Проект «SkillSwap» — платформа обмена навыками «Я научу / Хочу научиться»
+SkillSwap is a platform for exchanging skills between users — "I can teach" / "I want to learn".
 
-## ⚒️ Работа над задачами
-⛔ Никогда не трогаем main  
-🟡 Каждая новая задача выполняется в **новой** ветке, созданной от **develop**.  
-✅ Взяли задачу - передвинули в **In progress** на доске.
+## 🛠️ Technologies
 
-1) **Переходим в ветку develop:**
-```
-git checkout develop  
-git pull  # стянуть актуальный код develop (делается перед каждым выполнением задачи)  
-```
+- React
+- TypeScript
+- Vite
+- Redux Toolkit
+- React Redux
+- React Router
+- React Hook Form
+- Yup
+- SCSS / CSS
+- ESLint
+- Prettier
+- Stylelint
+- Storybook
+- Jest
+- Vitest
 
-2) **Создаем свою ветку для задачи:**  
-Формат названия ветки:  
-<тип>/<короткое-описание-задачи>  
+## 🚀 Getting Started
 
-**Используемые типы веток:**  
-- feature/ — новая фича или компонент  
-- fix/ — исправление бага  
-- refactor/ — улучшение существующего кода без изменения функционала  
-- docs/ — изменения в документации  
-- chore/ — служебные обновления (зависимости, конфиги и т.д.)   
+### Installation
 
-```
-git checkout -b feature/add-footer  # пример
-```
+1. Clone the repository:
 
-3) **Делаем коммиты по ходу работы**  
-```
-git add <название файла либо . для всех измененных>
-git commit -m 'feat: add example component'
-```  
-
-Формат коммита (Conventional Commits (https://www.conventionalcommits.org/en/v1.0.0/)):   
-
-4) **Пушим ветку**
-```
-git push -u origin feature/add-footer
-```
-
-5) **Открываем Pull Request в GitHub**  
-из ветки **feature/...** → в ветку **develop**
-
-
-## 🛠️ Применяемые технологии
-* React
-* TypeScript
-* Vite
-* HTML + CSS
-* Eslint, Prettier, Stylelint
-
-## 🚀 Установка и запуск
-**Локально**
-1. Клонируйте репозиторий:
-git clone https://github.com/PM-YandexPracticum/SkillSwap_45_2.git
-2. Перейдите в папку проекта и в ветку develop:
-```
-cd SkillSwap_45_2
-git checkout develop
-```
-3. Установите зависимости:
-``` 
-npm i
-```
-
-4. Запустите приложение:
-```
-npm run dev
-```
-   
-Приложение будет доступно по адресу http://localhost:5173
-
-
-
+```bash
+git clone https://github.com/PashensiaCode/SkillSwap.git
 
 
 
